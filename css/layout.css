@@ -1,0 +1,187 @@
+.body{
+    position: relative;
+}
+.main-container-wrapper{
+    margin: 55px 20px;
+    /* max-width: 1535px; */
+}
+.nav-bar{
+    padding: 20px 25px;
+    height: 55px;
+    background-color: #212429;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.logo-group{
+    width: 70%;
+}
+.icons-right{
+    width: 6%;
+}
+aside{
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+}
+.sidebar-wrapper{
+    margin: 10% 6%;
+}
+.search-bar, .big-advert, .small-advert, .categories, .slider, .latest-posts, .social-bar, .slider, .facebook-page {
+    margin-bottom: 40px;
+}
+footer{
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.bottom-wrapper{
+    margin: 60px 55px;
+}
+.first-par-col, .second-par-col{
+    width: 50%;
+}
+.about-blog, .latest-tweets, .instagram-plugin, .latest-comments{
+    width: 44.5%;
+}
+.about-blog, .latest-tweets, .instagram-plugin{
+    margin-right: 10px;
+}
+.copyright-info{
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: #17191c;
+    padding: 10px 0;
+}
+@media only screen and (max-width: 480px)
+{
+    .latest-comments, .latest-tweets{
+        display: none;
+    }
+    .first-par-col, .second-par-col{
+        width: 100%;
+
+    }
+    .about-blog, .instagram-plugin{
+        width: 100%;
+    }
+    .footer-heading{
+        margin-bottom: 10px;
+    }
+    .about-blog, .instagram-plugin{
+        margin-bottom: 20px;
+    }
+    .bottom-wrapper{
+        margin: 25px 35px;
+        padding: 40px;
+    }
+    .copyright-info, .copyright-info a{
+        font-size: 12px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px)
+{
+    .about-blog, .latest-tweets, .instagram-plugin, .latest-comments{
+        width: 100%;
+    }
+    .first-par-col{
+        padding-right: 30px;
+    }
+    .about-blog, .instagram-plugin{
+        margin-bottom: 20px;
+    }
+    .insta
+    .insta-images{
+        width: 100%;
+    }
+    .footer-heading{
+        margin-bottom: 30px;
+    }
+    /* .insta-row-1{
+        width: 100%;
+    } */
+    .img-container{
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 380px)
+{
+    .logo{
+        width: 60%;
+    }
+    .logo-group{
+        width: 73%;
+    }
+    .logo img{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 480px){
+    .logo-group{
+        width: 64%;
+    }
+    .main-container-wrapper{
+        margin: 55px 35px;
+    }
+    .nav-bar{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .icons-right{
+        width: 30%;
+    }
+    .logo-group{
+        width: 55%;
+    }
+    .main-container-wrapper{
+        margin: 55px 55px;
+    }
+    .nav-bar{
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+   
+}
+@media only screen and (min-width: 992px)
+{
+    main{
+        width: 74%;
+        float: left;
+        margin-right: 35px;
+    }
+    aside{
+        width: 22%;
+    }
+    .sidebar-wrapper{
+        margin: 10% 6%;
+    }
+}
+
+ @media only screen and (min-width: 1280px)
+{
+    aside{
+        width: 23%;
+    }
+}
+
+@media only screen and (min-width: 1545px)
+{
+    .nav-bar{
+        padding: 20px calc((100% - 1535px)/2);
+    }
+    .main-container-wrapper{
+        max-width: 1535px;
+        margin:auto;
+    }
+    .bottom-wrapper{
+        max-width: 1535px;
+        margin-left:auto;
+        margin-right: auto;
+    }
+} 
